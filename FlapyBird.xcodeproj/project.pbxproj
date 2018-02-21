@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16907D8E202E0E850054E74D /* 4s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16907D87202E0E850054E74D /* 4s@2x.png */; };
+		16907D8F202E0E850054E74D /* 5s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16907D88202E0E850054E74D /* 5s@2x.png */; };
+		16907D90202E0E850054E74D /* 6p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16907D89202E0E850054E74D /* 6p@2x.png */; };
+		16907D91202E0E850054E74D /* 6s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16907D8A202E0E850054E74D /* 6s@2x.png */; };
+		16907D92202E0E850054E74D /* ipad2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16907D8B202E0E850054E74D /* ipad2@2x.png */; };
+		16907D93202E0E850054E74D /* ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16907D8C202E0E850054E74D /* ipad@2x.png */; };
+		16907D94202E0E850054E74D /* x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16907D8D202E0E850054E74D /* x@2x.png */; };
+		C366A1A42029456D004AF4D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C366A1A32029456D004AF4D4 /* AppDelegate.swift */; };
+		C366A1A62029456D004AF4D4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C366A1A52029456D004AF4D4 /* GameViewController.swift */; };
+		C366A1A92029456D004AF4D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C366A1A72029456D004AF4D4 /* Main.storyboard */; };
+		C366A1AB2029456D004AF4D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C366A1AA2029456D004AF4D4 /* Assets.xcassets */; };
+		C366A1AE2029456D004AF4D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C366A1AC2029456D004AF4D4 /* LaunchScreen.storyboard */; };
+		C366A1B6202945CC004AF4D4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C366A1B5202945CC004AF4D4 /* GameScene.swift */; };
+		C366A1B820294610004AF4D4 /* SKScrollableNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C366A1B720294610004AF4D4 /* SKScrollableNode.swift */; };
+		C366A1C920294BA5004AF4D4 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C366A1BA20294BA5004AF4D4 /* back@2x.png */; };
+		C366A1CA20294BA5004AF4D4 /* bird_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C366A1BB20294BA5004AF4D4 /* bird_1@2x.png */; };
+		C366A1CB20294BA5004AF4D4 /* bird_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C366A1BC20294BA5004AF4D4 /* bird_2@2x.png */; };
+		C366A1CC20294BA5004AF4D4 /* bird_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C366A1BD20294BA5004AF4D4 /* bird_3@2x.png */; };
+		C366A1CE20294BA5004AF4D4 /* gameover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C366A1BF20294BA5004AF4D4 /* gameover@2x.png */; };
+		C366A1CF20294BA5004AF4D4 /* ready@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C366A1C020294BA5004AF4D4 /* ready@2x.png */; };
+		C366A1D220294BA5004AF4D4 /* score_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C366A1C320294BA5004AF4D4 /* score_bg@2x.png */; };
+		C366A1D520294BA5004AF4D4 /* pipe_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C366A1C620294BA5004AF4D4 /* pipe_bottom@2x.png */; };
+		C366A1D620294BA5004AF4D4 /* pipe_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C366A1C720294BA5004AF4D4 /* pipe_top@2x.png */; };
+		C366A1D720294BA5004AF4D4 /* tip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C366A1C820294BA5004AF4D4 /* tip@2x.png */; };
+		C366A1D9202954CF004AF4D4 /* floor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C366A1D8202954CF004AF4D4 /* floor@2x.png */; };
+		C366A1DB202956CD004AF4D4 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = C366A1DA202956CD004AF4D4 /* Bird.swift */; };
+		C366A1DD20296296004AF4D4 /* Pipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C366A1DC20296296004AF4D4 /* Pipe.swift */; };
+		C3A7B42D202DAD7900BB18E4 /* score.caf in Resources */ = {isa = PBXBuildFile; fileRef = C3A7B429202DAD7800BB18E4 /* score.caf */; };
+		C3A7B42E202DAD7900BB18E4 /* bg.caf in Resources */ = {isa = PBXBuildFile; fileRef = C3A7B42A202DAD7800BB18E4 /* bg.caf */; };
+		C3A7B42F202DAD7900BB18E4 /* collsion.caf in Resources */ = {isa = PBXBuildFile; fileRef = C3A7B42B202DAD7800BB18E4 /* collsion.caf */; };
+		C3A7B430202DAD7900BB18E4 /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = C3A7B42C202DAD7900BB18E4 /* jump.wav */; };
+		C3AC0201202AD54C00A15C9F /* Configeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AC0200202AD54C00A15C9F /* Configeration.swift */; };
+		C3E91C0B202C47E600727A03 /* gold@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E91C07202C47E600727A03 /* gold@2x.png */; };
+		C3E91C0C202C47E600727A03 /* bronze@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E91C08202C47E600727A03 /* bronze@2x.png */; };
+		C3E91C0D202C47E600727A03 /* silver@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E91C09202C47E600727A03 /* silver@2x.png */; };
+		C3E91C0E202C47E600727A03 /* platinum@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E91C0A202C47E600727A03 /* platinum@2x.png */; };
+		C51E24F379661C90D0ABD915 /* Pods_FlapyBird.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A2750A253E34C4CA890CDD /* Pods_FlapyBird.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16907D87202E0E850054E74D /* 4s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4s@2x.png"; sourceTree = "<group>"; };
+		16907D88202E0E850054E74D /* 5s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5s@2x.png"; sourceTree = "<group>"; };
+		16907D89202E0E850054E74D /* 6p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6p@2x.png"; sourceTree = "<group>"; };
+		16907D8A202E0E850054E74D /* 6s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6s@2x.png"; sourceTree = "<group>"; };
+		16907D8B202E0E850054E74D /* ipad2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad2@2x.png"; sourceTree = "<group>"; };
+		16907D8C202E0E850054E74D /* ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad@2x.png"; sourceTree = "<group>"; };
+		16907D8D202E0E850054E74D /* x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x@2x.png"; sourceTree = "<group>"; };
+		43A2750A253E34C4CA890CDD /* Pods_FlapyBird.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlapyBird.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D00C73896196226DCCA58DE /* Pods-FlapyBird.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlapyBird.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlapyBird/Pods-FlapyBird.debug.xcconfig"; sourceTree = "<group>"; };
+		A9A9E0F89F6664027498D07D /* Pods-FlapyBird.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlapyBird.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlapyBird/Pods-FlapyBird.release.xcconfig"; sourceTree = "<group>"; };
+		C366A1A02029456D004AF4D4 /* FlapyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlapyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C366A1A32029456D004AF4D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C366A1A52029456D004AF4D4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C366A1A82029456D004AF4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C366A1AA2029456D004AF4D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C366A1AD2029456D004AF4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C366A1AF2029456D004AF4D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C366A1B5202945CC004AF4D4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		C366A1B720294610004AF4D4 /* SKScrollableNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKScrollableNode.swift; sourceTree = "<group>"; };
+		C366A1BA20294BA5004AF4D4 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		C366A1BB20294BA5004AF4D4 /* bird_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bird_1@2x.png"; sourceTree = "<group>"; };
+		C366A1BC20294BA5004AF4D4 /* bird_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bird_2@2x.png"; sourceTree = "<group>"; };
+		C366A1BD20294BA5004AF4D4 /* bird_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bird_3@2x.png"; sourceTree = "<group>"; };
+		C366A1BF20294BA5004AF4D4 /* gameover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameover@2x.png"; sourceTree = "<group>"; };
+		C366A1C020294BA5004AF4D4 /* ready@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ready@2x.png"; sourceTree = "<group>"; };
+		C366A1C320294BA5004AF4D4 /* score_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "score_bg@2x.png"; sourceTree = "<group>"; };
+		C366A1C620294BA5004AF4D4 /* pipe_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pipe_bottom@2x.png"; sourceTree = "<group>"; };
+		C366A1C720294BA5004AF4D4 /* pipe_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pipe_top@2x.png"; sourceTree = "<group>"; };
+		C366A1C820294BA5004AF4D4 /* tip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tip@2x.png"; sourceTree = "<group>"; };
+		C366A1D8202954CF004AF4D4 /* floor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor@2x.png"; sourceTree = "<group>"; };
+		C366A1DA202956CD004AF4D4 /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		C366A1DC20296296004AF4D4 /* Pipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pipe.swift; sourceTree = "<group>"; };
+		C3A7B429202DAD7800BB18E4 /* score.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = score.caf; sourceTree = "<group>"; };
+		C3A7B42A202DAD7800BB18E4 /* bg.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bg.caf; sourceTree = "<group>"; };
+		C3A7B42B202DAD7800BB18E4 /* collsion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = collsion.caf; sourceTree = "<group>"; };
+		C3A7B42C202DAD7900BB18E4 /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
+		C3AC0200202AD54C00A15C9F /* Configeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configeration.swift; sourceTree = "<group>"; };
+		C3E91C07202C47E600727A03 /* gold@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gold@2x.png"; sourceTree = "<group>"; };
+		C3E91C08202C47E600727A03 /* bronze@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bronze@2x.png"; sourceTree = "<group>"; };
+		C3E91C09202C47E600727A03 /* silver@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "silver@2x.png"; sourceTree = "<group>"; };
+		C3E91C0A202C47E600727A03 /* platinum@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "platinum@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C366A19D2029456D004AF4D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51E24F379661C90D0ABD915 /* Pods_FlapyBird.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16907D86202E0E850054E74D /* default */ = {
+			isa = PBXGroup;
+			children = (
+				16907D87202E0E850054E74D /* 4s@2x.png */,
+				16907D88202E0E850054E74D /* 5s@2x.png */,
+				16907D89202E0E850054E74D /* 6p@2x.png */,
+				16907D8A202E0E850054E74D /* 6s@2x.png */,
+				16907D8B202E0E850054E74D /* ipad2@2x.png */,
+				16907D8C202E0E850054E74D /* ipad@2x.png */,
+				16907D8D202E0E850054E74D /* x@2x.png */,
+			);
+			path = default;
+			sourceTree = "<group>";
+		};
+		C366A1972029456D004AF4D4 = {
+			isa = PBXGroup;
+			children = (
+				C366A1B920294BA5004AF4D4 /* Resource */,
+				C366A1A22029456D004AF4D4 /* FlapyBird */,
+				C366A1A12029456D004AF4D4 /* Products */,
+				D58DA6D435FE6AE9C456646E /* Pods */,
+				DB6FE05753A1C9D8645B8880 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C366A1A12029456D004AF4D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C366A1A02029456D004AF4D4 /* FlapyBird.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C366A1A22029456D004AF4D4 /* FlapyBird */ = {
+			isa = PBXGroup;
+			children = (
+				C366A1A32029456D004AF4D4 /* AppDelegate.swift */,
+				C366A1A52029456D004AF4D4 /* GameViewController.swift */,
+				C366A1B5202945CC004AF4D4 /* GameScene.swift */,
+				C366A1B720294610004AF4D4 /* SKScrollableNode.swift */,
+				C366A1DA202956CD004AF4D4 /* Bird.swift */,
+				C366A1DC20296296004AF4D4 /* Pipe.swift */,
+				C3AC0200202AD54C00A15C9F /* Configeration.swift */,
+				C366A1A72029456D004AF4D4 /* Main.storyboard */,
+				C366A1AA2029456D004AF4D4 /* Assets.xcassets */,
+				C366A1AC2029456D004AF4D4 /* LaunchScreen.storyboard */,
+				C366A1AF2029456D004AF4D4 /* Info.plist */,
+			);
+			path = FlapyBird;
+			sourceTree = "<group>";
+		};
+		C366A1B920294BA5004AF4D4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				16907D86202E0E850054E74D /* default */,
+				C3A7B42A202DAD7800BB18E4 /* bg.caf */,
+				C3A7B42B202DAD7800BB18E4 /* collsion.caf */,
+				C3A7B42C202DAD7900BB18E4 /* jump.wav */,
+				C3A7B429202DAD7800BB18E4 /* score.caf */,
+				C366A1BA20294BA5004AF4D4 /* back@2x.png */,
+				C366A1D8202954CF004AF4D4 /* floor@2x.png */,
+				C366A1BB20294BA5004AF4D4 /* bird_1@2x.png */,
+				C366A1BC20294BA5004AF4D4 /* bird_2@2x.png */,
+				C366A1BD20294BA5004AF4D4 /* bird_3@2x.png */,
+				C366A1BF20294BA5004AF4D4 /* gameover@2x.png */,
+				C366A1C020294BA5004AF4D4 /* ready@2x.png */,
+				C366A1C320294BA5004AF4D4 /* score_bg@2x.png */,
+				C366A1C620294BA5004AF4D4 /* pipe_bottom@2x.png */,
+				C366A1C720294BA5004AF4D4 /* pipe_top@2x.png */,
+				C366A1C820294BA5004AF4D4 /* tip@2x.png */,
+				C3E91C08202C47E600727A03 /* bronze@2x.png */,
+				C3E91C07202C47E600727A03 /* gold@2x.png */,
+				C3E91C0A202C47E600727A03 /* platinum@2x.png */,
+				C3E91C09202C47E600727A03 /* silver@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D58DA6D435FE6AE9C456646E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D00C73896196226DCCA58DE /* Pods-FlapyBird.debug.xcconfig */,
+				A9A9E0F89F6664027498D07D /* Pods-FlapyBird.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB6FE05753A1C9D8645B8880 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43A2750A253E34C4CA890CDD /* Pods_FlapyBird.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C366A19F2029456D004AF4D4 /* FlapyBird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C366A1B22029456D004AF4D4 /* Build configuration list for PBXNativeTarget "FlapyBird" */;
+			buildPhases = (
+				009E905F440EC933D97D67A6 /* [CP] Check Pods Manifest.lock */,
+				C366A19C2029456D004AF4D4 /* Sources */,
+				C366A19D2029456D004AF4D4 /* Frameworks */,
+				C366A19E2029456D004AF4D4 /* Resources */,
+				9E077715033A34DB19CB252E /* [CP] Embed Pods Frameworks */,
+				710E5C5A6EC52CDCCEA3673B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlapyBird;
+			productName = FlapyBird;
+			productReference = C366A1A02029456D004AF4D4 /* FlapyBird.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C366A1982029456D004AF4D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = xgf;
+				TargetAttributes = {
+					C366A19F2029456D004AF4D4 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C366A19B2029456D004AF4D4 /* Build configuration list for PBXProject "FlapyBird" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C366A1972029456D004AF4D4;
+			productRefGroup = C366A1A12029456D004AF4D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C366A19F2029456D004AF4D4 /* FlapyBird */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C366A19E2029456D004AF4D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A7B430202DAD7900BB18E4 /* jump.wav in Resources */,
+				C366A1CB20294BA5004AF4D4 /* bird_2@2x.png in Resources */,
+				C366A1D520294BA5004AF4D4 /* pipe_bottom@2x.png in Resources */,
+				C366A1CE20294BA5004AF4D4 /* gameover@2x.png in Resources */,
+				C366A1AE2029456D004AF4D4 /* LaunchScreen.storyboard in Resources */,
+				16907D91202E0E850054E74D /* 6s@2x.png in Resources */,
+				C366A1D9202954CF004AF4D4 /* floor@2x.png in Resources */,
+				C366A1D720294BA5004AF4D4 /* tip@2x.png in Resources */,
+				C3A7B42D202DAD7900BB18E4 /* score.caf in Resources */,
+				16907D8E202E0E850054E74D /* 4s@2x.png in Resources */,
+				C366A1CA20294BA5004AF4D4 /* bird_1@2x.png in Resources */,
+				C366A1D220294BA5004AF4D4 /* score_bg@2x.png in Resources */,
+				C366A1D620294BA5004AF4D4 /* pipe_top@2x.png in Resources */,
+				C366A1CC20294BA5004AF4D4 /* bird_3@2x.png in Resources */,
+				C3E91C0C202C47E600727A03 /* bronze@2x.png in Resources */,
+				16907D8F202E0E850054E74D /* 5s@2x.png in Resources */,
+				C366A1C920294BA5004AF4D4 /* back@2x.png in Resources */,
+				C3E91C0D202C47E600727A03 /* silver@2x.png in Resources */,
+				C3E91C0B202C47E600727A03 /* gold@2x.png in Resources */,
+				C3A7B42F202DAD7900BB18E4 /* collsion.caf in Resources */,
+				C3A7B42E202DAD7900BB18E4 /* bg.caf in Resources */,
+				C3E91C0E202C47E600727A03 /* platinum@2x.png in Resources */,
+				16907D93202E0E850054E74D /* ipad@2x.png in Resources */,
+				C366A1AB2029456D004AF4D4 /* Assets.xcassets in Resources */,
+				C366A1A92029456D004AF4D4 /* Main.storyboard in Resources */,
+				C366A1CF20294BA5004AF4D4 /* ready@2x.png in Resources */,
+				16907D90202E0E850054E74D /* 6p@2x.png in Resources */,
+				16907D94202E0E850054E74D /* x@2x.png in Resources */,
+				16907D92202E0E850054E74D /* ipad2@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		009E905F440EC933D97D67A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlapyBird-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		710E5C5A6EC52CDCCEA3673B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlapyBird/Pods-FlapyBird-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E077715033A34DB19CB252E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FlapyBird/Pods-FlapyBird-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlapyBird/Pods-FlapyBird-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C366A19C2029456D004AF4D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3AC0201202AD54C00A15C9F /* Configeration.swift in Sources */,
+				C366A1B820294610004AF4D4 /* SKScrollableNode.swift in Sources */,
+				C366A1DB202956CD004AF4D4 /* Bird.swift in Sources */,
+				C366A1B6202945CC004AF4D4 /* GameScene.swift in Sources */,
+				C366A1DD20296296004AF4D4 /* Pipe.swift in Sources */,
+				C366A1A62029456D004AF4D4 /* GameViewController.swift in Sources */,
+				C366A1A42029456D004AF4D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C366A1A72029456D004AF4D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C366A1A82029456D004AF4D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C366A1AC2029456D004AF4D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C366A1AD2029456D004AF4D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C366A1B02029456D004AF4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C366A1B12029456D004AF4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C366A1B32029456D004AF4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D00C73896196226DCCA58DE /* Pods-FlapyBird.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P9D2224EQ;
+				INFOPLIST_FILE = FlapyBird/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgf.FlapyBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C366A1B42029456D004AF4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9A9E0F89F6664027498D07D /* Pods-FlapyBird.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9P9D2224EQ;
+				INFOPLIST_FILE = FlapyBird/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xgf.FlapyBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C366A19B2029456D004AF4D4 /* Build configuration list for PBXProject "FlapyBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C366A1B02029456D004AF4D4 /* Debug */,
+				C366A1B12029456D004AF4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C366A1B22029456D004AF4D4 /* Build configuration list for PBXNativeTarget "FlapyBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C366A1B32029456D004AF4D4 /* Debug */,
+				C366A1B42029456D004AF4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C366A1982029456D004AF4D4 /* Project object */;
+}
